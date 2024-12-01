@@ -1,0 +1,332 @@
+:root {
+    --ada-blue: #336178;
+    --ada-red: #ae485e;
+}
+
+body {
+    background-color: #e8dedc;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.team_logo {
+    width: 100px;
+    height: 100px;
+    padding-bottom: 1px;
+
+}
+
+.nav_bar ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.nav_bar li {
+    width: 120px;
+    height: 50px;
+    background-color: #d4c9c7;
+    text-align: center;
+    padding-top: 30px;
+    justify-content: space-around;
+
+
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.salam {
+    background-color: #d4c9c7;
+    height: 80px;
+    width: 100%;
+    
+    position: fixed; /* or absolute */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    display: flex;
+    padding: 0 50px 0 50px !important;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.footer_index {
+    
+    box-sizing: border-box;
+    width: 100%;
+    height: 200px;
+    background-color: #d4c9c7;
+    margin-top: 750px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    justify-content: space-around;
+    display: flex;
+    
+}
+.footer_members {
+
+    box-sizing: border-box;
+    width: 100%;
+    height: 200px;
+    background-color: #d4c9c7;
+    margin-top: 1200px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    justify-content: space-around;
+    display: flex;
+    
+}
+.Ada_logo {
+    height: 96px;
+    width: 150px;
+    padding-top: 50px;
+    padding-left: 5px;
+    object-fit: contain;
+}
+
+.aa {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 100%;
+    
+
+}
+.last_project {
+    justify-content: space-evenly;
+    display: flex;
+}
+.hour-of-code_img {
+    height: 200px;
+    width: auto;
+}
+.labimg {
+    height: 200px;
+    width: auto;
+}
+.hour-of-code {
+    border: 1px solid ;
+    padding: 30px;
+}
+.lab {
+    border: 1px solid ;
+    padding: 30px;
+
+}
+
+.team-member-box-container{
+    position: relative;
+    top: 30px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.team-member-box{
+    display:  block;
+    float:left;
+    border: 3px solid black;
+    height: 450px;
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: antiquewhite;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+
+    
+}
+.team-member-box img{
+    display: block;
+    height: 250px;
+    width: 250px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.member-name{
+    max-width: 100%;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.member-info-box{
+    display:block;
+    width:250px;
+    max-width:95%;
+    margin:auto;
+}
+.member-info{
+    text-align: left;
+    font-size: 1em;
+    margin-top: 5px;
+    background-color: #f2dfc6;
+    border: 2px solid rgb(177, 158, 136);
+    padding: 5px;
+    max-height: 100%;
+    height: 100%;
+}
+.h3 {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    
+}
+.ab {
+    margin-left: 220px;
+    margin-right: 220px;
+}
+
+
+.aba {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+.contact_us {
+    padding-top: 30px;
+}
+.h2_team {
+    text-align: center;
+    margin-top: 120px;
+}
+  
+.abc {
+    text-align: center;
+    margin-top: 100px;
+}
+.video {
+    height: 500px;
+    width: 930px;
+    object-fit: fill;
+}
+
+.hourofcode_sentences {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.hourofcode_sentences p {
+    font-size: 1;
+}
+.fig_box {
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.fig_words {
+    text-align: center;
+    margin-top: 70px;
+}
+.fig_words-w
+{
+    font-size:20px;
+    margin-right:5px;
+    text-wrap: wrap;
+}
+.fig {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 246.781px;
+
+}
+.footer_hour {
+    
+    box-sizing: border-box;
+    width: 100%;
+    height: 200px;
+    background-color: #d4c9c7;
+    margin-top: 50px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    justify-content: space-around;
+    display: flex;
+}
+canvas {
+    margin: 100px auto;
+    display: block;
+}
+.controls {
+    text-align: center;
+    margin: 20px;
+}
+.controls button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.codeacademy-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 2px solid #3e8e41;
+    margin-top: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 80%;
+}
+.codeacademy-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+.codeacademy-button img {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+.team-member-box-btn {
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column; 
+    margin-bottom: 20px; 
+
+}
+
+div.salam, div.team-member-box-container {
+    flex: 1; 
+}
+footer.footer_index-web {
+    background-color: #f1f1f1;
+    padding: 20px;
+    width: 100%;
+    margin-top:40px;
+}
+#everything{
+    visibility: hidden;
+}
+#usernameInputDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+#continueButton{
+    margin-top:20px;
+}

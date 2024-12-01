@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!-- 
+    SITE 1101 Principles of Information Systems 
+    (c)2024 by Team 13
+    Submitted in partial fulfillment of the requirements of the course.
+-->
+<html>
+    <head>
+        <title>Homework 3: Website project</title>
+        <link rel="stylesheet" href="styles.css">  
+        <style>
+           
+            
+            
+        </style>
+        <script type="text/javascript" src="scripts.js"></script>      
+    </head>
+    <body>
+        <div class="salam">
+            <header class="header">
+                <img class="team_logo" src="media/TEAM 13 (2).png">
+            </header>
+            <nav class="nav_bar">
+                <ul class="ul">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./team-members.html">Team Members</a></li>
+                    <li><a href="./hour-of-code.html">Hour of Code</a></li>
+                    <li><a href="./code-artist.html">Code Art</a></li>
+                    <li><a href="./web-project.html">Web Project</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        
+        
+        <div>
+            <h2 class="h2_team">Web Project Information</h2>
+            <div class="fig_box">
+                <p class="fig_words fig_words-w">
+                    On the homepage (index.html), we provided a brief overview of the team, including its purpose and context, to establish the team's identity and set the tone for the rest of the website.    We designed a homepage (index.html) to introduce our team. The page includes a header with the team logo and a navigation bar that connects all sections of the website. The homepage serves as a hub, presenting the team’s identity and offering easy access to the project’s main features. The structure was implemented using HTML5, and CSS was used to style the header, navigation bar, and overall layout. The CSS flexbox model ensured proper alignment and responsiveness.
+
+                </p>
+                <div class="fig">
+                    <img src="./media/index.png">
+                    
+                </div>
+            </div>
+            <div class="fig_box">
+                <div class="fig">
+                    <img class="fig" src="./media/team.png">
+                </div>
+                <p class="fig_words fig_words-w">
+                    We then introduced individual profiles for each team member, detailing their background, interests, and roles within the team. The "Team Members" section provides detailed profiles for each member, including names, photos, and links to their Codecademy profiles. The profiles are displayed in individual boxes styled with rounded corners, background colors, and hover effects. We utilized a combination of HTML and CSS to format these boxes and used Flexbox to align them evenly. Each profile includes a functional button with interactive hover effects, styled using custom CSS. These buttons include the Codecademy logo on the left and link to the team members’ respective profiles.
+
+                </p>
+            </div>
+            <div class="fig_box">
+                <p class="fig_words fig_words-w">
+                    Then we created dedicated section that provides details about our Hour of Code event, including its objectives, activities, and the engagement we facilitated with participants. The page serves as a summary of the event’s key moments and outcomes. Images from the event are included to provide visual context. The layout was styled with CSS to include bordered containers and responsive image scaling for consistency across devices. HTML semantics were used to ensure the content is accessible and structured. This section reflects how the team engaged with participants to promote coding and computational thinking.               </p>
+                <div class="fig">
+                    <img src="./media/web.png">
+                    
+                </div>
+            </div>
+            <div class="fig_box">
+                <div class="fig">
+                    <img class="fig" src="./media/art.png">
+                </div>
+                <p class="fig_words fig_words-w">
+                    We included a section introducing code art created using algorithms, which is spinning spiral with interactive component. The user can pause and continue spinning spiral, and if needed also save the picture when stopped. The "Code Art" section demonstrates a creative application of JavaScript and HTML5 Canvas to generate interactive algorithmic art. The centerpiece is a spinning spiral pattern that users can control using buttons to pause, resume, or save the art. The JavaScript script utilizes randomized parameters for vibrant colors and unique patterns, offering a dynamic and engaging user experience. CSS ensures the canvas is centered on the page, and the buttons are styled to be visually appealing and user-friendly. This section showcases the integration of algorithms and art in a web development context.
+
+                </p>
+            </div>
+            <div class="fig_box">
+                <p class="fig_words fig_words-w">
+                    In the end, we developed a section about our web project, which highlights the web development project we undertook, describing the pages we developed and individual profiles of team members. The "Web Project" section highlights the web development process and technologies used. This page describes the various tasks completed, such as structuring the team profiles, creating interactive buttons, and designing layouts. For the navigation bar and footer, CSS properties such as position: fixed and flex were used to create a consistent and responsive layout. JavaScript enhanced the functionality by enabling interactivity, such as dynamic content rendering. The CSS variables (--ada-blue and --ada-red) allowed for consistent theming across all pages.
+
+                </p>
+            </div>
+            <h2 class="h2_team">Team Member Profiles</h2>
+            <div class="team-member-box-container">
+
+                <div class="team-member-box team-member-box-btn" id="orkhan_box">
+                    <img src="media/orkhan_nabiyev.jpg">
+                    <p class="member-name">Orkhan Nabiyev</p>
+                    <a href="https://www.codecademy.com/profiles/onabiyev20402" class="codeacademy-button" target="_blank">
+                        <img src="./media/4691345_codecademy_icon.png" alt="Code Academy">
+                        Code Academy Profile Link...
+                    </a>
+                </div>
+
+                <div class="team-member-box team-member-box-btn" id="yusuf_box">
+                    <img src="media/Yusuf_Shabanov.png">
+                    <p class="member-name">Yusuf Shabanov</p>
+                    <a href="https://www.codecademy.com/profiles/YusufShabanov" class="codeacademy-button" target="_blank">
+                        <img src="./media/4691345_codecademy_icon.png" alt="Code Academy">
+                        Code Academy Profile Link...
+                    </a>
+                </div>
+
+                <div class="team-member-box team-member-box-btn" id="laman_box">
+                    <img src="media/Laman_Aliyeva.jpg">
+                    <p class="member-name">Laman Aliyeva</p>
+                    <a href=" https://www.codecademy.com/profiles/LamanAliyeva" class="codeacademy-button" target="_blank">
+                        <img src="./media/4691345_codecademy_icon.png" alt="Code Academy">
+                        Code Academy Profile Link...
+                    </a>
+                </div>
+
+                <div class="team-member-box team-member-box-btn" id="javidan_box">
+                    <img src="media/javidan.jpg">
+                    <p class="member-name">Javidan Tahmazli</p>
+                    <a href="https://www.codecademy.com/profiles/JavidanTahmazli" class="codeacademy-button" target="_blank">
+                        <img src="./media/4691345_codecademy_icon.png" alt="Code Academy">
+                        Code Academy Profile Link...
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <footer class="footer_index-web">
+            <div>
+                <a href="https://www.ada.edu.az/en">
+                    <img class="Ada_logo" src="media/ada_logo_color.png" alt="ADA University">
+                </a>
+                <p>Life is perfect with ADA</p>
+            </div>
+            <div class="contact_us">
+                <h3>Contact with Us</h3>
+                <a href="https://www.facebook.com/profile.php?id=100071614375672" class="facebook" target="_blank"><img class="aba" src="./media/Untitled design (4).png"></a>
+                <a href="https://www.instagram.com/team13_site_ada/" class="instagram" target="_blank"><img class="aba" src="./media/Untitled design (6).png"></a>
+            </div>
+        </footer>
+    </body>
+</html>
